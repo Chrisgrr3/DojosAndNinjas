@@ -1,1 +1,4 @@
 # DojosAndNinjas
+
+This Sprint Boot Application allows users to add both ninjas and dojos to a database. When creating a dojo, the user must provide a name for the dojo and upon submission, they are
+presented with a view of all the ninjas registered to that dojo. Initially, this list will be empty as there are no ninjas registered to that dojo (well, there is no ninjas in the database at all). To add a ninja to the newly created dojo, users must navigate to "/ninjas/new", select the dojo within the dropdown menu, complete the form, and submit. Upon submission, the user is taken to the dojo page for whichever dojo was registered to the newly created ninja. For example, if I add my ninja to "Seattle Dojo", I will be redirected to the page that displays all the ninjas registered to "Seattle Dojo".
